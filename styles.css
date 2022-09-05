@@ -130,7 +130,7 @@ form h2 {
   outline: 1px solid green;
 }
 
-.form-row > input:valid:not(:focus) + .fa-solid.fa-check {
+.form-row > input:valid:not(:focus):not(.error) ~ .fa-solid.fa-check {
   opacity: 1;  
 }
 

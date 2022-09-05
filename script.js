@@ -5,6 +5,7 @@ let confirmPasswordValue = '';
 
 password.addEventListener('change', e => {
   passwordValue = e.target.value;
+  comparePasswords();
 });
 
 confirmPassword.addEventListener('change', e => {
