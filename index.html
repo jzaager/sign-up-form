@@ -7,6 +7,7 @@
     <title>Sign up Form</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c1c6faea11.js" crossorigin="anonymous"></script>
+    <script src="/script.js" type="text/javascript" defer></script>
   </head>
 
   <body>
@@ -63,13 +64,13 @@
           
           <div class="form-row">
             <label for="password">PASSWORD</label>
-            <input placeholder=" " class="error" id="password" type="password" name="password" required>
+            <input minlength="5" placeholder=" " class="error" id="password" type="password" name="password" required>
             <span class="error-msg"></span>
             
           </div>
           <div class="form-row">
             <label for="confirmPassword">CONFIRM PASSWORD</label>
-            <input placeholder=" " class="error" id="confirmPassword" type="password" name="confirmPassword" required>
+            <input minlength="5" placeholder=" " class="error" id="confirmPassword" type="password" name="confirmPassword" required>
             <span class="valid-check"></span>
           </div>
 
